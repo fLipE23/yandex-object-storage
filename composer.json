@@ -1,0 +1,28 @@
+{
+    "name": "flipe23/yandex-object-storage-provider",
+    "description": "Just add ServiceProvider for YandexObjectStorage",
+    "version": "1.0.0",
+    "require": {
+        "league/flysystem-aws-s3-v3": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey",
+            "email": "flipe@bk.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Flipe23\\YandexObjectStorage\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Flipe23\\YandexObjectStorage\\YandexObjectStorageServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}

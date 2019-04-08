@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Providers;
+namespace Flipe23\YandexObjectStorage;
 
 use Illuminate\Support\ServiceProvider;
-use Aws\S3\S3Client;
 use League\Flysystem\AwsS3v3\AwsS3Adapter;
 use League\Flysystem\Filesystem;
+use Aws\S3\S3Client;
 use Aws\Laravel\AwsServiceProvider;
 use Storage;
 
@@ -24,9 +24,9 @@ class YandexObjectStorageProvider extends ServiceProvider
                     'key'    => $config['key'],
                     'secret' => $config['secret'],
                 ],
-                'region' => $config['region'],
-                'version' => $config['version'],
-                'endpoint' => $config['endpoint'],
+                'region' => '',
+                'version' => 'latest',
+                'endpoint' => 'http://storage.yandexcloud.net/',
             ]);
 
             return new Filesystem(new AwsS3Adapter($client, $config['bucket']));
