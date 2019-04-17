@@ -24,9 +24,8 @@ class YandexObjectStorageProvider extends ServiceProvider
                     'key'    => $config['key'],
                     'secret' => $config['secret'],
                 ],
-                'region' => '',
+                'region' => 'us-east-1',
                 'version' => 'latest',
-                'endpoint' => 'http://storage.yandexcloud.net/',
             ]);
 
             return new Filesystem(new AwsS3Adapter($client, $config['bucket']));

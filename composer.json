@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Flipe23\\YandexObjectStorage\\": ""
+            "Flipe23\\YandexObjectStorage\\": "src/"
         }
     },
     "extra": {
