@@ -9,7 +9,7 @@ use Aws\S3\S3Client;
 use Aws\Laravel\AwsServiceProvider;
 use Storage;
 
-class YandexObjectStorageProvider extends ServiceProvider
+class YandexObjectStorageServiceProvider extends ServiceProvider
 {
     /**
      * Perform post-registration booting of services.
