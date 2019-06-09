@@ -2,9 +2,13 @@
 
 Just add service provider for yandex cloud
 
-## Usage
+## Install
 
----
+Via composer:
+
+    composer require flipe23/yandex-object-storage-provider
+
+## Usage
 
 After installing this package add the following code to your config/filesystems.php:
 
@@ -13,8 +17,9 @@ After installing this package add the following code to your config/filesystems.
                 'key' => 'your-key',
                 'secret' => 'your-secret',
                 'bucket' => 'bucket-name',
+                'region' => 'us-east-1',
     ],
-
+    
 And then you can use
 
     $disk = Storage::disk('yandex');
