@@ -1,6 +1,6 @@
 <?php
 
-namespace Flipe23\YandexObjectStorage;
+namespace artsur\YandexObjectStorage;
 
 use Illuminate\Support\ServiceProvider;
 use League\Flysystem\AwsS3v3\AwsS3Adapter;
