@@ -17,13 +17,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "artsur\\YandexObjectStorage\\": "src/"
+            "ArtSur\\YandexObjectStorage\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "artsur\\YandexObjectStorage\\YandexObjectStorageServiceProvider"
+                "ArtSur\\YandexObjectStorage\\YandexObjectStorageServiceProvider"
             ]
         }
     },
