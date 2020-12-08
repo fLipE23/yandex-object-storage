@@ -6,7 +6,7 @@ Just add service provider for yandex cloud
 
 Via composer:
 
-    composer require flipe23/yandex-object-storage-provider
+    composer require artsur/yandex-object-storage-provider
 
 ## Usage
 
@@ -26,4 +26,4 @@ And then you can use
 
 to get your yandex cloud storage instance
 
-###### Don't forget to add the Flipe23\YandexObjectStorage\YandexObjectStorageProvider to your $providers array if your laravel version lower than 5.5
+###### Don't forget to add the artsur\YandexObjectStorage\YandexObjectStorageServiceProvider to your $providers array if your laravel version lower than 5.5
