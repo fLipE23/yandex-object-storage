@@ -1,6 +1,6 @@
 <?php
 
-namespace artsur\YandexObjectStorage;
+namespace ArtSur\YandexObjectStorage;
 
 use Illuminate\Support\ServiceProvider;
 use League\Flysystem\AwsS3v3\AwsS3Adapter;
