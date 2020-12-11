@@ -1,13 +1,13 @@
 <?php
 
-namespace Flipe23\YandexObjectStorage;
+namespace ArtSur\YandexObjectStorage;
 
 use Illuminate\Support\ServiceProvider;
 use League\Flysystem\AwsS3v3\AwsS3Adapter;
 use League\Flysystem\Filesystem;
 use Aws\S3\S3Client;
 use Aws\Laravel\AwsServiceProvider;
-use Storage;
+use Illuminate\Support\Facades\Storage;
 
 class YandexObjectStorageServiceProvider extends ServiceProvider
 {

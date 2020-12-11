@@ -1,5 +1,5 @@
 {
-    "name": "flipe23/yandex-object-storage-provider",
+    "name": "artsur/yandex-object-storage-provider",
     "description": "Just add ServiceProvider for YandexObjectStorage",
     "require": {
         "league/flysystem-aws-s3-v3": "^1.0"
@@ -9,17 +9,21 @@
         {
             "name": "Sergey",
             "email": "flipe@bk.ru"
+        },
+        {
+            "name": "Artem Surkov",
+            "email": "artsur@mail.ru"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Flipe23\\YandexObjectStorage\\": "src/"
+            "ArtSur\\YandexObjectStorage\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Flipe23\\YandexObjectStorage\\YandexObjectStorageServiceProvider"
+                "ArtSur\\YandexObjectStorage\\YandexObjectStorageServiceProvider"
             ]
         }
     },
